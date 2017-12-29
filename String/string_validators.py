@@ -1,0 +1,6 @@
+line = str(input())
+print (any(i.isalnum() for i in line))
+print (any(i.isalpha() for i in line))
+print (any(i.isdigit() for i in line))
+print (any(i.islower() for i in line))
+print (any(i.isupper() for i in line))
